@@ -70,14 +70,14 @@ ete3 upgrade-external-tools
 ```
 ete3 build check
 ```
-![image](https://note.youdao.com/yws/api/personal/file/WEB736e422023ec3c5485826b592649126c?method=download&shareKey=3a0b98d2f73ed8d602b0d61cabe66ab5)
+![image](https://raw.githubusercontent.com/dengzq1234/ete3_tutorial_chinese/master/ete-build-check.png?token=AGDS2VZJ65DW76BNHNRT25K7FKK6U)
 
 2) 查看预先系统自带的建树流程及其详细解释
 - ete预先了设计了多个流程用以完成从原始序列到后续进化树构建的各个步骤。运行以下命令可以列出系统自带的流程及其详细步骤
 ```
 ete3 build workflows genetree
 ```
-![image](https://note.youdao.com/yws/api/personal/file/WEB361c3b3ae47b45a87f325ba36270b9da?method=download&shareKey=824358a2475040797a6a2847a91c386b)
+![image](https://raw.githubusercontent.com/dengzq1234/ete3_tutorial_chinese/master/ete-build-workflow.png?token=AGDS2VZVBHW6FKY2MG3VB527FKK7M)
 
 3) 准备FASTA原始序列
 - 确保输入序列为正确的FASTA格式
@@ -87,7 +87,10 @@ ete3 build workflows genetree
 ```
 cat data/NUP62.aa.fa | head -n15
 ```
+![image](https://raw.githubusercontent.com/dengzq1234/ete3_tutorial_chinese/master/ete-build-NUP62.png?token=AGDS2V4WVQXOTPVM34JTZW27FKLFU)
+
+
+4) 
 
 #### 利用ETE进行树型分析/可视化(python模块教程)
-> ETE库具有全面的API 构建，比较，注释，操作和可视化树
-
+> ETE库具有全面的API 构建，比较，注释，操作和可视化树 
