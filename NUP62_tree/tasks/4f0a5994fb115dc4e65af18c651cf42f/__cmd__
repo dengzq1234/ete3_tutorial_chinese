@@ -1,0 +1,4 @@
+#!/bin/sh
+ (echo R > /home/deng/Desktop/tutorial/NUP62_tree/tasks/4f0a5994fb115dc4e65af18c651cf42f/__status__ && date +'%a %b %d %H:%M:%S %Y' > /home/deng/Desktop/tutorial/NUP62_tree/tasks/4f0a5994fb115dc4e65af18c651cf42f/__time__) &&
+ (cd /home/deng/Desktop/tutorial/NUP62_tree/tasks/4f0a5994fb115dc4e65af18c651cf42f && export OMP_NUM_THREADS=1; /home/deng/miniconda3/envs/ete3.1.1/bin/ete3_apps/bin/FastTree -nopr  -pseudo  -mlacc 3 -slownni  /home/deng/Desktop/tutorial/NUP62_tree/input/43bd31a23713fe2750bba612a054c69b.201  && (echo D > /home/deng/Desktop/tutorial/NUP62_tree/tasks/4f0a5994fb115dc4e65af18c651cf42f/__status__; ) || (echo E > /home/deng/Desktop/tutorial/NUP62_tree/tasks/4f0a5994fb115dc4e65af18c651cf42f/__status__; ));
+ date +'%a %b %d %H:%M:%S %Y' >> /home/deng/Desktop/tutorial/NUP62_tree/tasks/4f0a5994fb115dc4e65af18c651cf42f/__time__; 
