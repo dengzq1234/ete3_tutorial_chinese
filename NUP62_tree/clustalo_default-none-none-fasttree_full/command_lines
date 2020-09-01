@@ -1,1 +1,0 @@
-Thu Aug  6 11:31:20 2020	6ae4af37812aae5246b6a453a20b2526	False	/home/deng/miniconda3/envs/ete3.1.1/bin/ete3 -w standard_fasttree -a data/NUP62.aa.fa -o NUP62_tree/ --clearall

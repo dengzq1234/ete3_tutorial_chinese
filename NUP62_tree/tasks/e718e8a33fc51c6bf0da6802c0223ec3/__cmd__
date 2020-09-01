@@ -1,4 +1,0 @@
-#!/bin/sh
- (echo R > /home/deng/Desktop/tutorial/NUP62_tree/tasks/e718e8a33fc51c6bf0da6802c0223ec3/__status__ && date +'%a %b %d %H:%M:%S %Y' > /home/deng/Desktop/tutorial/NUP62_tree/tasks/e718e8a33fc51c6bf0da6802c0223ec3/__time__) &&
- (cd /home/deng/Desktop/tutorial/NUP62_tree/tasks/e718e8a33fc51c6bf0da6802c0223ec3 && /home/deng/miniconda3/envs/ete3.1.1/bin/ete3_apps/bin/clustalo --threads 1 -i /home/deng/Desktop/tutorial/NUP62_tree/input/1998da854ed5bc1629c0880e1ebdd449.100 -o clustalo_alg.fasta --outfmt fa && (echo D > /home/deng/Desktop/tutorial/NUP62_tree/tasks/e718e8a33fc51c6bf0da6802c0223ec3/__status__; ) || (echo E > /home/deng/Desktop/tutorial/NUP62_tree/tasks/e718e8a33fc51c6bf0da6802c0223ec3/__status__; ));
- date +'%a %b %d %H:%M:%S %Y' >> /home/deng/Desktop/tutorial/NUP62_tree/tasks/e718e8a33fc51c6bf0da6802c0223ec3/__time__; 
